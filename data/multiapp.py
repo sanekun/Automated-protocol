@@ -41,7 +41,6 @@ class MultiApp:
         st.sidebar.subheader("by Seong-Kun Bak *sanekun@kribb.re.kr*")
         st.sidebar.markdown("---")
         st.sidebar.selectbox("Messenger", ['', 'Kun'], key='messenger')
-        st.sidebar.text("")
         st.sidebar.markdown("---")
 
         app = st.sidebar.radio(
