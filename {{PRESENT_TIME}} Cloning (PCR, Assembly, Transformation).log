@@ -1,180 +1,36 @@
+INFO:root:Protocol Start: 2024-07-15 15:50:16
+INFO:root:user: kun
 INFO:opentrons.legacy_broker:command.THERMOCYCLER_OPEN: 
 WARNING:opentrons.protocol_api.core.legacy.legacy_module_core:Cannot assure a safe gantry position to avoid colliding with the lid of the Thermocycler Module.
 INFO:opentrons.protocol_api.protocol_context:Loading p20_single_gen2 on left mount
-INFO:opentrons.hardware_control.api.API.140495057678592:Updating instrument model cache
-INFO:opentrons.hardware_control.instruments.ot2.pipette.<unknown>:loaded: p20_single_v2.0, pipette offset: (0.0, 0.0, 0.0)
-INFO:opentrons.hardware_control.api.API.140495057678592:Doing full configuration on LEFT
-INFO:opentrons.hardware_control.api.API.140495057678592:Skipping configuration on RIGHT
-INFO:opentrons.hardware_control.api.API.140495057678592:Instruments found: {<Mount.LEFT: 1>: <Pipette: P20 Single-Channel GEN2 140494824923072>, <Mount.RIGHT: 2>: None}
-INFO:opentrons.protocol_api.core.legacy.legacy_protocol_core:Instrument <opentrons.protocol_api.core.legacy.legacy_instrument_core.LegacyInstrumentCore object at 0x7fc7801aac50> loaded
+INFO:opentrons.hardware_control.api.API.140055934817264:Updating instrument model cache
+INFO:opentrons.hardware_control.instruments.ot2.pipette.<unknown>:loaded: p20_single_v2.2, pipette offset: (0.0, 0.0, 0.0)
+INFO:opentrons.hardware_control.api.API.140055934817264:Doing full configuration on LEFT
+INFO:opentrons.hardware_control.api.API.140055934817264:Skipping configuration on RIGHT
+INFO:opentrons.hardware_control.api.API.140055934817264:Instruments found: {<Mount.LEFT: 1>: <Pipette: P20 Single-Channel GEN2 140055624190224>, <Mount.RIGHT: 2>: None}
+INFO:opentrons.protocol_api.core.legacy.legacy_protocol_core:Instrument <opentrons.protocol_api.core.legacy.legacy_instrument_core.LegacyInstrumentCore object at 0x7f613dd920e0> loaded
 INFO:opentrons.protocol_api.protocol_context:Loading p300_single_gen2 on right mount
-INFO:opentrons.hardware_control.api.API.140495057678592:Updating instrument model cache
-INFO:opentrons.hardware_control.api.API.140495057678592:Skipping configuration on LEFT
-INFO:opentrons.hardware_control.instruments.ot2.pipette.<unknown>:loaded: p300_single_v2.0, pipette offset: (0.0, 0.0, 0.0)
-INFO:opentrons.hardware_control.api.API.140495057678592:Doing full configuration on RIGHT
-INFO:opentrons.hardware_control.api.API.140495057678592:Instruments found: {<Mount.LEFT: 1>: <Pipette: P20 Single-Channel GEN2 140494824923072>, <Mount.RIGHT: 2>: <Pipette: P300 Single-Channel GEN2 140494826585872>}
-INFO:opentrons.protocol_api.core.legacy.legacy_protocol_core:Instrument <opentrons.protocol_api.core.legacy.legacy_instrument_core.LegacyInstrumentCore object at 0x7fc7801af790> loaded
+INFO:opentrons.hardware_control.api.API.140055934817264:Updating instrument model cache
+INFO:opentrons.hardware_control.api.API.140055934817264:Skipping configuration on LEFT
+INFO:opentrons.hardware_control.instruments.ot2.pipette.<unknown>:loaded: p300_single_v2.1, pipette offset: (0.0, 0.0, 0.0)
+INFO:opentrons.hardware_control.api.API.140055934817264:Doing full configuration on RIGHT
+INFO:opentrons.hardware_control.api.API.140055934817264:Instruments found: {<Mount.LEFT: 1>: <Pipette: P20 Single-Channel GEN2 140055624190224>, <Mount.RIGHT: 2>: <Pipette: P300 Single-Channel GEN2 140055624192384>}
+INFO:opentrons.protocol_api.core.legacy.legacy_protocol_core:Instrument <opentrons.protocol_api.core.legacy.legacy_instrument_core.LegacyInstrumentCore object at 0x7f613dd92bc0> loaded
+INFO:root:Protocol Start: 2024-07-15 16:59:36
+INFO:root:user: kun
 INFO:opentrons.legacy_broker:command.THERMOCYCLER_OPEN: 
 WARNING:opentrons.protocol_api.core.legacy.legacy_module_core:Cannot assure a safe gantry position to avoid colliding with the lid of the Thermocycler Module.
 INFO:opentrons.protocol_api.protocol_context:Loading p20_single_gen2 on left mount
-INFO:opentrons.hardware_control.api.API.139775556268192:Updating instrument model cache
-INFO:opentrons.hardware_control.instruments.ot2.pipette.<unknown>:loaded: p20_single_v2.0, pipette offset: (0.0, 0.0, 0.0)
-INFO:opentrons.hardware_control.api.API.139775556268192:Doing full configuration on LEFT
-INFO:opentrons.hardware_control.api.API.139775556268192:Skipping configuration on RIGHT
-INFO:opentrons.hardware_control.api.API.139775556268192:Instruments found: {<Mount.LEFT: 1>: <Pipette: P20 Single-Channel GEN2 139775256321888>, <Mount.RIGHT: 2>: None}
-INFO:opentrons.protocol_api.core.legacy.legacy_protocol_core:Instrument <opentrons.protocol_api.core.legacy.legacy_instrument_core.LegacyInstrumentCore object at 0x7f1ff69c6da0> loaded
+INFO:opentrons.hardware_control.api.API.140347430257760:Updating instrument model cache
+INFO:opentrons.hardware_control.instruments.ot2.pipette.<unknown>:loaded: p20_single_v2.2, pipette offset: (0.0, 0.0, 0.0)
+INFO:opentrons.hardware_control.api.API.140347430257760:Doing full configuration on LEFT
+INFO:opentrons.hardware_control.api.API.140347430257760:Skipping configuration on RIGHT
+INFO:opentrons.hardware_control.api.API.140347430257760:Instruments found: {<Mount.LEFT: 1>: <Pipette: P20 Single-Channel GEN2 140347188590336>, <Mount.RIGHT: 2>: None}
+INFO:opentrons.protocol_api.core.legacy.legacy_protocol_core:Instrument <opentrons.protocol_api.core.legacy.legacy_instrument_core.LegacyInstrumentCore object at 0x7fa5d21ecaf0> loaded
 INFO:opentrons.protocol_api.protocol_context:Loading p300_single_gen2 on right mount
-INFO:opentrons.hardware_control.api.API.139775556268192:Updating instrument model cache
-INFO:opentrons.hardware_control.api.API.139775556268192:Skipping configuration on LEFT
-INFO:opentrons.hardware_control.instruments.ot2.pipette.<unknown>:loaded: p300_single_v2.0, pipette offset: (0.0, 0.0, 0.0)
-INFO:opentrons.hardware_control.api.API.139775556268192:Doing full configuration on RIGHT
-INFO:opentrons.hardware_control.api.API.139775556268192:Instruments found: {<Mount.LEFT: 1>: <Pipette: P20 Single-Channel GEN2 139775256321888>, <Mount.RIGHT: 2>: <Pipette: P300 Single-Channel GEN2 139775256324096>}
-INFO:opentrons.protocol_api.core.legacy.legacy_protocol_core:Instrument <opentrons.protocol_api.core.legacy.legacy_instrument_core.LegacyInstrumentCore object at 0x7f1ff6997ee0> loaded
-INFO:opentrons.legacy_broker:command.THERMOCYCLER_OPEN: 
-WARNING:opentrons.protocol_api.core.legacy.legacy_module_core:Cannot assure a safe gantry position to avoid colliding with the lid of the Thermocycler Module.
-INFO:opentrons.protocol_api.protocol_context:Loading p20_single_gen2 on left mount
-INFO:opentrons.hardware_control.api.API.140198981316864:Updating instrument model cache
-INFO:opentrons.hardware_control.instruments.ot2.pipette.<unknown>:loaded: p20_single_v2.0, pipette offset: (0.0, 0.0, 0.0)
-INFO:opentrons.hardware_control.api.API.140198981316864:Doing full configuration on LEFT
-INFO:opentrons.hardware_control.api.API.140198981316864:Skipping configuration on RIGHT
-INFO:opentrons.hardware_control.api.API.140198981316864:Instruments found: {<Mount.LEFT: 1>: <Pipette: P20 Single-Channel GEN2 140198748495712>, <Mount.RIGHT: 2>: None}
-INFO:opentrons.protocol_api.core.legacy.legacy_protocol_core:Instrument <opentrons.protocol_api.core.legacy.legacy_instrument_core.LegacyInstrumentCore object at 0x7f829092eda0> loaded
-INFO:opentrons.protocol_api.protocol_context:Loading p300_single_gen2 on right mount
-INFO:opentrons.hardware_control.api.API.140198981316864:Updating instrument model cache
-INFO:opentrons.hardware_control.api.API.140198981316864:Skipping configuration on LEFT
-INFO:opentrons.hardware_control.instruments.ot2.pipette.<unknown>:loaded: p300_single_v2.0, pipette offset: (0.0, 0.0, 0.0)
-INFO:opentrons.hardware_control.api.API.140198981316864:Doing full configuration on RIGHT
-INFO:opentrons.hardware_control.api.API.140198981316864:Instruments found: {<Mount.LEFT: 1>: <Pipette: P20 Single-Channel GEN2 140198748495712>, <Mount.RIGHT: 2>: <Pipette: P300 Single-Channel GEN2 140198748497920>}
-INFO:opentrons.protocol_api.core.legacy.legacy_protocol_core:Instrument <opentrons.protocol_api.core.legacy.legacy_instrument_core.LegacyInstrumentCore object at 0x7f82909a27d0> loaded
-INFO:opentrons.legacy_broker:command.THERMOCYCLER_OPEN: 
-WARNING:opentrons.protocol_api.core.legacy.legacy_module_core:Cannot assure a safe gantry position to avoid colliding with the lid of the Thermocycler Module.
-INFO:opentrons.protocol_api.protocol_context:Loading p20_single_gen2 on left mount
-INFO:opentrons.hardware_control.api.API.140473984594080:Updating instrument model cache
-INFO:opentrons.hardware_control.instruments.ot2.pipette.<unknown>:loaded: p20_single_v2.0, pipette offset: (0.0, 0.0, 0.0)
-INFO:opentrons.hardware_control.api.API.140473984594080:Doing full configuration on LEFT
-INFO:opentrons.hardware_control.api.API.140473984594080:Skipping configuration on RIGHT
-INFO:opentrons.hardware_control.api.API.140473984594080:Instruments found: {<Mount.LEFT: 1>: <Pipette: P20 Single-Channel GEN2 140473751707536>, <Mount.RIGHT: 2>: None}
-INFO:opentrons.protocol_api.core.legacy.legacy_protocol_core:Instrument <opentrons.protocol_api.core.legacy.legacy_instrument_core.LegacyInstrumentCore object at 0x7fc2982bb0a0> loaded
-INFO:opentrons.protocol_api.protocol_context:Loading p300_single_gen2 on right mount
-INFO:opentrons.hardware_control.api.API.140473984594080:Updating instrument model cache
-INFO:opentrons.hardware_control.api.API.140473984594080:Skipping configuration on LEFT
-INFO:opentrons.hardware_control.instruments.ot2.pipette.<unknown>:loaded: p300_single_v2.0, pipette offset: (0.0, 0.0, 0.0)
-INFO:opentrons.hardware_control.api.API.140473984594080:Doing full configuration on RIGHT
-INFO:opentrons.hardware_control.api.API.140473984594080:Instruments found: {<Mount.LEFT: 1>: <Pipette: P20 Single-Channel GEN2 140473751707536>, <Mount.RIGHT: 2>: <Pipette: P300 Single-Channel GEN2 140473751709744>}
-INFO:opentrons.protocol_api.core.legacy.legacy_protocol_core:Instrument <opentrons.protocol_api.core.legacy.legacy_instrument_core.LegacyInstrumentCore object at 0x7fc2982eec80> loaded
-INFO:opentrons.legacy_broker:command.THERMOCYCLER_OPEN: 
-WARNING:opentrons.protocol_api.core.legacy.legacy_module_core:Cannot assure a safe gantry position to avoid colliding with the lid of the Thermocycler Module.
-INFO:opentrons.protocol_api.protocol_context:Loading p20_single_gen2 on left mount
-INFO:opentrons.hardware_control.api.API.140112473469184:Updating instrument model cache
-INFO:opentrons.hardware_control.instruments.ot2.pipette.<unknown>:loaded: p20_single_v2.0, pipette offset: (0.0, 0.0, 0.0)
-INFO:opentrons.hardware_control.api.API.140112473469184:Doing full configuration on LEFT
-INFO:opentrons.hardware_control.api.API.140112473469184:Skipping configuration on RIGHT
-INFO:opentrons.hardware_control.api.API.140112473469184:Instruments found: {<Mount.LEFT: 1>: <Pipette: P20 Single-Channel GEN2 140112240615360>, <Mount.RIGHT: 2>: None}
-INFO:opentrons.protocol_api.core.legacy.legacy_protocol_core:Instrument <opentrons.protocol_api.core.legacy.legacy_instrument_core.LegacyInstrumentCore object at 0x7f6e6c6db130> loaded
-INFO:opentrons.protocol_api.protocol_context:Loading p300_single_gen2 on right mount
-INFO:opentrons.hardware_control.api.API.140112473469184:Updating instrument model cache
-INFO:opentrons.hardware_control.api.API.140112473469184:Skipping configuration on LEFT
-INFO:opentrons.hardware_control.instruments.ot2.pipette.<unknown>:loaded: p300_single_v2.0, pipette offset: (0.0, 0.0, 0.0)
-INFO:opentrons.hardware_control.api.API.140112473469184:Doing full configuration on RIGHT
-INFO:opentrons.hardware_control.api.API.140112473469184:Instruments found: {<Mount.LEFT: 1>: <Pipette: P20 Single-Channel GEN2 140112240615360>, <Mount.RIGHT: 2>: <Pipette: P300 Single-Channel GEN2 140112240617568>}
-INFO:opentrons.protocol_api.core.legacy.legacy_protocol_core:Instrument <opentrons.protocol_api.core.legacy.legacy_instrument_core.LegacyInstrumentCore object at 0x7f6e6c4dacb0> loaded
-INFO:opentrons.legacy_broker:command.DISTRIBUTE: instrument: P300 Single-Channel GEN2 on right mount, locations: [A2 of Opentrons 24 Tube Rack with NEST 1.5 mL Screwcap on 1, A1 of Bio-Rad 96 Well Plate 200 µL PCR on Thermocycler Module GEN1 on 7], volume: 10.5, source: A2 of Opentrons 24 Tube Rack with NEST 1.5 mL Screwcap on 1, dest: [A1 of Bio-Rad 96 Well Plate 200 µL PCR on Thermocycler Module GEN1 on 7]
-INFO:opentrons.legacy_broker:command.TRANSFER: instrument: P300 Single-Channel GEN2 on right mount, locations: [A2 of Opentrons 24 Tube Rack with NEST 1.5 mL Screwcap on 1, A1 of Bio-Rad 96 Well Plate 200 µL PCR on Thermocycler Module GEN1 on 7], volume: 10.5, source: A2 of Opentrons 24 Tube Rack with NEST 1.5 mL Screwcap on 1, dest: [A1 of Bio-Rad 96 Well Plate 200 µL PCR on Thermocycler Module GEN1 on 7]
-INFO:opentrons.legacy_broker:command.PICK_UP_TIP: instrument: P300 Single-Channel GEN2 on right mount, location: A1 of Opentrons 96 Tip Rack 300 µL on 3
-INFO:opentrons.hardware_control.instruments.ot2.pipette_handler.InstrumentHandler.140112473469184:Updating tip rack diameter on pipette mount: RIGHT, tip diameter: 5.23 mm
-INFO:opentrons.hardware_control.instruments.ot2.pipette_handler.InstrumentHandler.140112473469184:Updating working volume on pipette mount:RIGHT, tip volume: 300 ul
-INFO:opentrons.legacy_broker:command.ASPIRATE: instrument: P300 Single-Channel GEN2 on right mount, volume: 15.5, location: Location(point=Point(x=38.1, y=75.43, z=42.29999999999999), labware=A2 of Opentrons 24 Tube Rack with NEST 1.5 mL Screwcap on 1), rate: 1.0
-INFO:opentrons.legacy_broker:command.DISPENSE: instrument: P300 Single-Channel GEN2 on right mount, volume: 10.5, location: Location(point=Point(x=14.38, y=337.8, z=100.05), labware=A1 of Bio-Rad 96 Well Plate 200 µL PCR on Thermocycler Module GEN1 on 7), rate: 1.0
-INFO:opentrons.legacy_broker:command.BLOW_OUT: instrument: P300 Single-Channel GEN2 on right mount, location: Location(point=Point(x=347.84000000000003, y=351.5, z=82.0), labware=A1 of Opentrons Fixed Trash on 12)
-INFO:opentrons.legacy_broker:command.DROP_TIP: instrument: P300 Single-Channel GEN2 on right mount, location: A1 of Opentrons Fixed Trash on 12
-INFO:opentrons.legacy_broker:command.DISTRIBUTE: instrument: P300 Single-Channel GEN2 on right mount, locations: [A2 of Opentrons 24 Tube Rack with NEST 1.5 mL Screwcap on 1, A1 of Bio-Rad 96 Well Plate 200 µL PCR on Thermocycler Module GEN1 on 7], volume: 10.5, source: A2 of Opentrons 24 Tube Rack with NEST 1.5 mL Screwcap on 1, dest: [A1 of Bio-Rad 96 Well Plate 200 µL PCR on Thermocycler Module GEN1 on 7]
-INFO:opentrons.legacy_broker:command.TRANSFER: instrument: P300 Single-Channel GEN2 on right mount, locations: [A2 of Opentrons 24 Tube Rack with NEST 1.5 mL Screwcap on 1, A1 of Bio-Rad 96 Well Plate 200 µL PCR on Thermocycler Module GEN1 on 7], volume: 10.5, source: A2 of Opentrons 24 Tube Rack with NEST 1.5 mL Screwcap on 1, dest: [A1 of Bio-Rad 96 Well Plate 200 µL PCR on Thermocycler Module GEN1 on 7]
-INFO:opentrons.legacy_broker:command.PICK_UP_TIP: instrument: P300 Single-Channel GEN2 on right mount, location: B1 of Opentrons 96 Tip Rack 300 µL on 3
-INFO:opentrons.hardware_control.instruments.ot2.pipette_handler.InstrumentHandler.140112473469184:Updating tip rack diameter on pipette mount: RIGHT, tip diameter: 5.23 mm
-INFO:opentrons.hardware_control.instruments.ot2.pipette_handler.InstrumentHandler.140112473469184:Updating working volume on pipette mount:RIGHT, tip volume: 300 ul
-INFO:opentrons.legacy_broker:command.ASPIRATE: instrument: P300 Single-Channel GEN2 on right mount, volume: 15.5, location: Location(point=Point(x=38.1, y=75.43, z=42.29999999999999), labware=A2 of Opentrons 24 Tube Rack with NEST 1.5 mL Screwcap on 1), rate: 1.0
-INFO:opentrons.legacy_broker:command.DISPENSE: instrument: P300 Single-Channel GEN2 on right mount, volume: 10.5, location: Location(point=Point(x=14.38, y=337.8, z=100.05), labware=A1 of Bio-Rad 96 Well Plate 200 µL PCR on Thermocycler Module GEN1 on 7), rate: 1.0
-INFO:opentrons.legacy_broker:command.BLOW_OUT: instrument: P300 Single-Channel GEN2 on right mount, location: Location(point=Point(x=347.84000000000003, y=351.5, z=82.0), labware=A1 of Opentrons Fixed Trash on 12)
-INFO:opentrons.legacy_broker:command.DROP_TIP: instrument: P300 Single-Channel GEN2 on right mount, location: A1 of Opentrons Fixed Trash on 12
-INFO:opentrons.legacy_broker:command.DISTRIBUTE: instrument: P300 Single-Channel GEN2 on right mount, locations: [Location(point=Point(x=18.21, y=75.43, z=44.29999999999999), labware=A1 of Opentrons 24 Tube Rack with NEST 1.5 mL Screwcap on 1), A1 of Bio-Rad 96 Well Plate 200 µL PCR on Thermocycler Module GEN1 on 7], volume: 12.5, source: Location(point=Point(x=18.21, y=75.43, z=44.29999999999999), labware=A1 of Opentrons 24 Tube Rack with NEST 1.5 mL Screwcap on 1), dest: [A1 of Bio-Rad 96 Well Plate 200 µL PCR on Thermocycler Module GEN1 on 7]
-INFO:opentrons.legacy_broker:command.TRANSFER: instrument: P300 Single-Channel GEN2 on right mount, locations: [Location(point=Point(x=18.21, y=75.43, z=44.29999999999999), labware=A1 of Opentrons 24 Tube Rack with NEST 1.5 mL Screwcap on 1), A1 of Bio-Rad 96 Well Plate 200 µL PCR on Thermocycler Module GEN1 on 7], volume: 12.5, source: Location(point=Point(x=18.21, y=75.43, z=44.29999999999999), labware=A1 of Opentrons 24 Tube Rack with NEST 1.5 mL Screwcap on 1), dest: [A1 of Bio-Rad 96 Well Plate 200 µL PCR on Thermocycler Module GEN1 on 7]
-INFO:opentrons.legacy_broker:command.PICK_UP_TIP: instrument: P300 Single-Channel GEN2 on right mount, location: C1 of Opentrons 96 Tip Rack 300 µL on 3
-INFO:opentrons.hardware_control.instruments.ot2.pipette_handler.InstrumentHandler.140112473469184:Updating tip rack diameter on pipette mount: RIGHT, tip diameter: 5.23 mm
-INFO:opentrons.hardware_control.instruments.ot2.pipette_handler.InstrumentHandler.140112473469184:Updating working volume on pipette mount:RIGHT, tip volume: 300 ul
-INFO:opentrons.legacy_broker:command.MIX: instrument: P300 Single-Channel GEN2 on right mount, location: Location(point=Point(x=18.21, y=75.43, z=44.29999999999999), labware=A1 of Opentrons 24 Tube Rack with NEST 1.5 mL Screwcap on 1), volume: 50, repetitions: 2
-INFO:opentrons.legacy_broker:command.ASPIRATE: instrument: P300 Single-Channel GEN2 on right mount, volume: 50, location: Location(point=Point(x=18.21, y=75.43, z=44.29999999999999), labware=A1 of Opentrons 24 Tube Rack with NEST 1.5 mL Screwcap on 1), rate: 1.0
-INFO:opentrons.legacy_broker:command.DISPENSE: instrument: P300 Single-Channel GEN2 on right mount, volume: 50, location: Location(point=Point(x=18.21, y=75.43, z=44.29999999999999), labware=A1 of Opentrons 24 Tube Rack with NEST 1.5 mL Screwcap on 1), rate: 1.0
-INFO:opentrons.legacy_broker:command.ASPIRATE: instrument: P300 Single-Channel GEN2 on right mount, volume: 50, location: Location(point=Point(x=18.21, y=75.43, z=44.29999999999999), labware=A1 of Opentrons 24 Tube Rack with NEST 1.5 mL Screwcap on 1), rate: 1.0
-INFO:opentrons.legacy_broker:command.DISPENSE: instrument: P300 Single-Channel GEN2 on right mount, volume: 50, location: Location(point=Point(x=18.21, y=75.43, z=44.29999999999999), labware=A1 of Opentrons 24 Tube Rack with NEST 1.5 mL Screwcap on 1), rate: 1.0
-INFO:opentrons.legacy_broker:command.ASPIRATE: instrument: P300 Single-Channel GEN2 on right mount, volume: 17.5, location: Location(point=Point(x=18.21, y=75.43, z=44.29999999999999), labware=A1 of Opentrons 24 Tube Rack with NEST 1.5 mL Screwcap on 1), rate: 1.0
-INFO:opentrons.legacy_broker:command.DISPENSE: instrument: P300 Single-Channel GEN2 on right mount, volume: 12.5, location: Location(point=Point(x=14.38, y=337.8, z=100.05), labware=A1 of Bio-Rad 96 Well Plate 200 µL PCR on Thermocycler Module GEN1 on 7), rate: 1.0
-INFO:opentrons.legacy_broker:command.BLOW_OUT: instrument: P300 Single-Channel GEN2 on right mount, location: Location(point=Point(x=18.21, y=75.43, z=44.29999999999999), labware=A1 of Opentrons 24 Tube Rack with NEST 1.5 mL Screwcap on 1)
-INFO:opentrons.legacy_broker:command.DROP_TIP: instrument: P300 Single-Channel GEN2 on right mount, location: A1 of Opentrons Fixed Trash on 12
-INFO:opentrons.legacy_broker:command.TRANSFER: instrument: P20 Single-Channel GEN2 on left mount, locations: [A1 of Bio-Rad 96 Well Plate 200 µL PCR on 4, A1 of Bio-Rad 96 Well Plate 200 µL PCR on Thermocycler Module GEN1 on 7], volume: 1.0, source: A1 of Bio-Rad 96 Well Plate 200 µL PCR on 4, dest: [A1 of Bio-Rad 96 Well Plate 200 µL PCR on Thermocycler Module GEN1 on 7]
-INFO:opentrons.legacy_broker:command.PICK_UP_TIP: instrument: P20 Single-Channel GEN2 on left mount, location: A1 of Opentrons 96 Tip Rack 20 µL on 2
-INFO:opentrons.hardware_control.instruments.ot2.pipette_handler.InstrumentHandler.140112473469184:Updating tip rack diameter on pipette mount: LEFT, tip diameter: 3.27 mm
-INFO:opentrons.hardware_control.instruments.ot2.pipette_handler.InstrumentHandler.140112473469184:Updating working volume on pipette mount:LEFT, tip volume: 20 ul
-INFO:opentrons.legacy_broker:command.ASPIRATE: instrument: P20 Single-Channel GEN2 on left mount, volume: 1.0, location: Location(point=Point(x=14.38, y=164.74, z=2.2500000000000018), labware=A1 of Bio-Rad 96 Well Plate 200 µL PCR on 4), rate: 1.0
-INFO:opentrons.legacy_broker:command.DISPENSE: instrument: P20 Single-Channel GEN2 on left mount, volume: 1.0, location: Location(point=Point(x=14.38, y=337.8, z=100.05), labware=A1 of Bio-Rad 96 Well Plate 200 µL PCR on Thermocycler Module GEN1 on 7), rate: 1.0
-INFO:opentrons.legacy_broker:command.DROP_TIP: instrument: P20 Single-Channel GEN2 on left mount, location: A1 of Opentrons Fixed Trash on 12
-INFO:opentrons.legacy_broker:command.TRANSFER: instrument: P20 Single-Channel GEN2 on left mount, locations: [B1 of Bio-Rad 96 Well Plate 200 µL PCR on 4, A1 of Bio-Rad 96 Well Plate 200 µL PCR on Thermocycler Module GEN1 on 7], volume: 0.5, source: B1 of Bio-Rad 96 Well Plate 200 µL PCR on 4, dest: [A1 of Bio-Rad 96 Well Plate 200 µL PCR on Thermocycler Module GEN1 on 7]
-INFO:opentrons.legacy_broker:command.PICK_UP_TIP: instrument: P20 Single-Channel GEN2 on left mount, location: B1 of Opentrons 96 Tip Rack 20 µL on 2
-INFO:opentrons.hardware_control.instruments.ot2.pipette_handler.InstrumentHandler.140112473469184:Updating tip rack diameter on pipette mount: LEFT, tip diameter: 3.27 mm
-INFO:opentrons.hardware_control.instruments.ot2.pipette_handler.InstrumentHandler.140112473469184:Updating working volume on pipette mount:LEFT, tip volume: 20 ul
-INFO:opentrons.legacy_broker:command.ASPIRATE: instrument: P20 Single-Channel GEN2 on left mount, volume: 0.5, location: Location(point=Point(x=14.38, y=155.74, z=2.2500000000000018), labware=B1 of Bio-Rad 96 Well Plate 200 µL PCR on 4), rate: 1.0
-INFO:opentrons.legacy_broker:command.DISPENSE: instrument: P20 Single-Channel GEN2 on left mount, volume: 0.5, location: Location(point=Point(x=14.38, y=337.8, z=100.05), labware=A1 of Bio-Rad 96 Well Plate 200 µL PCR on Thermocycler Module GEN1 on 7), rate: 1.0
-INFO:opentrons.legacy_broker:command.DROP_TIP: instrument: P20 Single-Channel GEN2 on left mount, location: A1 of Opentrons Fixed Trash on 12
-INFO:opentrons.legacy_broker:command.TRANSFER: instrument: P20 Single-Channel GEN2 on left mount, locations: [C1 of Bio-Rad 96 Well Plate 200 µL PCR on 4, A1 of Bio-Rad 96 Well Plate 200 µL PCR on Thermocycler Module GEN1 on 7], volume: 0.5, source: C1 of Bio-Rad 96 Well Plate 200 µL PCR on 4, dest: [A1 of Bio-Rad 96 Well Plate 200 µL PCR on Thermocycler Module GEN1 on 7]
-INFO:opentrons.legacy_broker:command.PICK_UP_TIP: instrument: P20 Single-Channel GEN2 on left mount, location: C1 of Opentrons 96 Tip Rack 20 µL on 2
-INFO:opentrons.hardware_control.instruments.ot2.pipette_handler.InstrumentHandler.140112473469184:Updating tip rack diameter on pipette mount: LEFT, tip diameter: 3.27 mm
-INFO:opentrons.hardware_control.instruments.ot2.pipette_handler.InstrumentHandler.140112473469184:Updating working volume on pipette mount:LEFT, tip volume: 20 ul
-INFO:opentrons.legacy_broker:command.ASPIRATE: instrument: P20 Single-Channel GEN2 on left mount, volume: 0.5, location: Location(point=Point(x=14.38, y=146.74, z=2.2500000000000018), labware=C1 of Bio-Rad 96 Well Plate 200 µL PCR on 4), rate: 1.0
-INFO:opentrons.legacy_broker:command.DISPENSE: instrument: P20 Single-Channel GEN2 on left mount, volume: 0.5, location: Location(point=Point(x=14.38, y=337.8, z=100.05), labware=A1 of Bio-Rad 96 Well Plate 200 µL PCR on Thermocycler Module GEN1 on 7), rate: 1.0
-INFO:opentrons.legacy_broker:command.DROP_TIP: instrument: P20 Single-Channel GEN2 on left mount, location: A1 of Opentrons Fixed Trash on 12
-INFO:opentrons.legacy_broker:command.TRANSFER: instrument: P20 Single-Channel GEN2 on left mount, locations: [D1 of Bio-Rad 96 Well Plate 200 µL PCR on 4, A1 of Bio-Rad 96 Well Plate 200 µL PCR on Thermocycler Module GEN1 on 7], volume: 1.0, source: D1 of Bio-Rad 96 Well Plate 200 µL PCR on 4, dest: [A1 of Bio-Rad 96 Well Plate 200 µL PCR on Thermocycler Module GEN1 on 7]
-INFO:opentrons.legacy_broker:command.PICK_UP_TIP: instrument: P20 Single-Channel GEN2 on left mount, location: D1 of Opentrons 96 Tip Rack 20 µL on 2
-INFO:opentrons.hardware_control.instruments.ot2.pipette_handler.InstrumentHandler.140112473469184:Updating tip rack diameter on pipette mount: LEFT, tip diameter: 3.27 mm
-INFO:opentrons.hardware_control.instruments.ot2.pipette_handler.InstrumentHandler.140112473469184:Updating working volume on pipette mount:LEFT, tip volume: 20 ul
-INFO:opentrons.legacy_broker:command.ASPIRATE: instrument: P20 Single-Channel GEN2 on left mount, volume: 1.0, location: Location(point=Point(x=14.38, y=137.74, z=2.2500000000000018), labware=D1 of Bio-Rad 96 Well Plate 200 µL PCR on 4), rate: 1.0
-INFO:opentrons.legacy_broker:command.DISPENSE: instrument: P20 Single-Channel GEN2 on left mount, volume: 1.0, location: Location(point=Point(x=14.38, y=337.8, z=100.05), labware=A1 of Bio-Rad 96 Well Plate 200 µL PCR on Thermocycler Module GEN1 on 7), rate: 1.0
-INFO:opentrons.legacy_broker:command.DROP_TIP: instrument: P20 Single-Channel GEN2 on left mount, location: A1 of Opentrons Fixed Trash on 12
-INFO:opentrons.legacy_broker:command.TRANSFER: instrument: P20 Single-Channel GEN2 on left mount, locations: [A1 of Bio-Rad 96 Well Plate 200 µL PCR on 4, A1 of Bio-Rad 96 Well Plate 200 µL PCR on Thermocycler Module GEN1 on 7], volume: 1.0, source: A1 of Bio-Rad 96 Well Plate 200 µL PCR on 4, dest: A1 of Bio-Rad 96 Well Plate 200 µL PCR on Thermocycler Module GEN1 on 7
-INFO:opentrons.legacy_broker:command.PICK_UP_TIP: instrument: P20 Single-Channel GEN2 on left mount, location: E1 of Opentrons 96 Tip Rack 20 µL on 2
-INFO:opentrons.hardware_control.instruments.ot2.pipette_handler.InstrumentHandler.140112473469184:Updating tip rack diameter on pipette mount: LEFT, tip diameter: 3.27 mm
-INFO:opentrons.hardware_control.instruments.ot2.pipette_handler.InstrumentHandler.140112473469184:Updating working volume on pipette mount:LEFT, tip volume: 20 ul
-INFO:opentrons.legacy_broker:command.ASPIRATE: instrument: P20 Single-Channel GEN2 on left mount, volume: 1.0, location: Location(point=Point(x=14.38, y=164.74, z=2.2500000000000018), labware=A1 of Bio-Rad 96 Well Plate 200 µL PCR on 4), rate: 1.0
-INFO:opentrons.legacy_broker:command.DISPENSE: instrument: P20 Single-Channel GEN2 on left mount, volume: 1.0, location: Location(point=Point(x=14.38, y=337.8, z=100.05), labware=A1 of Bio-Rad 96 Well Plate 200 µL PCR on Thermocycler Module GEN1 on 7), rate: 1.0
-INFO:opentrons.legacy_broker:command.DROP_TIP: instrument: P20 Single-Channel GEN2 on left mount, location: A1 of Opentrons Fixed Trash on 12
-INFO:opentrons.legacy_broker:command.TRANSFER: instrument: P20 Single-Channel GEN2 on left mount, locations: [B1 of Bio-Rad 96 Well Plate 200 µL PCR on 4, A1 of Bio-Rad 96 Well Plate 200 µL PCR on Thermocycler Module GEN1 on 7], volume: 0.5, source: B1 of Bio-Rad 96 Well Plate 200 µL PCR on 4, dest: A1 of Bio-Rad 96 Well Plate 200 µL PCR on Thermocycler Module GEN1 on 7
-INFO:opentrons.legacy_broker:command.PICK_UP_TIP: instrument: P20 Single-Channel GEN2 on left mount, location: F1 of Opentrons 96 Tip Rack 20 µL on 2
-INFO:opentrons.hardware_control.instruments.ot2.pipette_handler.InstrumentHandler.140112473469184:Updating tip rack diameter on pipette mount: LEFT, tip diameter: 3.27 mm
-INFO:opentrons.hardware_control.instruments.ot2.pipette_handler.InstrumentHandler.140112473469184:Updating working volume on pipette mount:LEFT, tip volume: 20 ul
-INFO:opentrons.legacy_broker:command.ASPIRATE: instrument: P20 Single-Channel GEN2 on left mount, volume: 0.5, location: Location(point=Point(x=14.38, y=155.74, z=2.2500000000000018), labware=B1 of Bio-Rad 96 Well Plate 200 µL PCR on 4), rate: 1.0
-INFO:opentrons.legacy_broker:command.DISPENSE: instrument: P20 Single-Channel GEN2 on left mount, volume: 0.5, location: Location(point=Point(x=14.38, y=337.8, z=100.05), labware=A1 of Bio-Rad 96 Well Plate 200 µL PCR on Thermocycler Module GEN1 on 7), rate: 1.0
-INFO:opentrons.legacy_broker:command.DROP_TIP: instrument: P20 Single-Channel GEN2 on left mount, location: A1 of Opentrons Fixed Trash on 12
-INFO:opentrons.legacy_broker:command.TRANSFER: instrument: P20 Single-Channel GEN2 on left mount, locations: [C1 of Bio-Rad 96 Well Plate 200 µL PCR on 4, A1 of Bio-Rad 96 Well Plate 200 µL PCR on Thermocycler Module GEN1 on 7], volume: 0.5, source: C1 of Bio-Rad 96 Well Plate 200 µL PCR on 4, dest: A1 of Bio-Rad 96 Well Plate 200 µL PCR on Thermocycler Module GEN1 on 7
-INFO:opentrons.legacy_broker:command.PICK_UP_TIP: instrument: P20 Single-Channel GEN2 on left mount, location: G1 of Opentrons 96 Tip Rack 20 µL on 2
-INFO:opentrons.hardware_control.instruments.ot2.pipette_handler.InstrumentHandler.140112473469184:Updating tip rack diameter on pipette mount: LEFT, tip diameter: 3.27 mm
-INFO:opentrons.hardware_control.instruments.ot2.pipette_handler.InstrumentHandler.140112473469184:Updating working volume on pipette mount:LEFT, tip volume: 20 ul
-INFO:opentrons.legacy_broker:command.ASPIRATE: instrument: P20 Single-Channel GEN2 on left mount, volume: 0.5, location: Location(point=Point(x=14.38, y=146.74, z=2.2500000000000018), labware=C1 of Bio-Rad 96 Well Plate 200 µL PCR on 4), rate: 1.0
-INFO:opentrons.legacy_broker:command.DISPENSE: instrument: P20 Single-Channel GEN2 on left mount, volume: 0.5, location: Location(point=Point(x=14.38, y=337.8, z=100.05), labware=A1 of Bio-Rad 96 Well Plate 200 µL PCR on Thermocycler Module GEN1 on 7), rate: 1.0
-INFO:opentrons.legacy_broker:command.DROP_TIP: instrument: P20 Single-Channel GEN2 on left mount, location: A1 of Opentrons Fixed Trash on 12
-INFO:opentrons.legacy_broker:command.TRANSFER: instrument: P20 Single-Channel GEN2 on left mount, locations: [D1 of Bio-Rad 96 Well Plate 200 µL PCR on 4, A1 of Bio-Rad 96 Well Plate 200 µL PCR on Thermocycler Module GEN1 on 7], volume: 1.0, source: D1 of Bio-Rad 96 Well Plate 200 µL PCR on 4, dest: A1 of Bio-Rad 96 Well Plate 200 µL PCR on Thermocycler Module GEN1 on 7
-INFO:opentrons.legacy_broker:command.PICK_UP_TIP: instrument: P20 Single-Channel GEN2 on left mount, location: H1 of Opentrons 96 Tip Rack 20 µL on 2
-INFO:opentrons.hardware_control.instruments.ot2.pipette_handler.InstrumentHandler.140112473469184:Updating tip rack diameter on pipette mount: LEFT, tip diameter: 3.27 mm
-INFO:opentrons.hardware_control.instruments.ot2.pipette_handler.InstrumentHandler.140112473469184:Updating working volume on pipette mount:LEFT, tip volume: 20 ul
-INFO:opentrons.legacy_broker:command.ASPIRATE: instrument: P20 Single-Channel GEN2 on left mount, volume: 1.0, location: Location(point=Point(x=14.38, y=137.74, z=2.2500000000000018), labware=D1 of Bio-Rad 96 Well Plate 200 µL PCR on 4), rate: 1.0
-INFO:opentrons.legacy_broker:command.DISPENSE: instrument: P20 Single-Channel GEN2 on left mount, volume: 1.0, location: Location(point=Point(x=14.38, y=337.8, z=100.05), labware=A1 of Bio-Rad 96 Well Plate 200 µL PCR on Thermocycler Module GEN1 on 7), rate: 1.0
-INFO:opentrons.legacy_broker:command.DROP_TIP: instrument: P20 Single-Channel GEN2 on left mount, location: A1 of Opentrons Fixed Trash on 12
-INFO:opentrons.legacy_broker:command.PICK_UP_TIP: instrument: P20 Single-Channel GEN2 on left mount, location: A2 of Opentrons 96 Tip Rack 20 µL on 2
-INFO:opentrons.hardware_control.instruments.ot2.pipette_handler.InstrumentHandler.140112473469184:Updating tip rack diameter on pipette mount: LEFT, tip diameter: 3.27 mm
-INFO:opentrons.hardware_control.instruments.ot2.pipette_handler.InstrumentHandler.140112473469184:Updating working volume on pipette mount:LEFT, tip volume: 20 ul
-INFO:opentrons.legacy_broker:command.DROP_TIP: instrument: P20 Single-Channel GEN2 on left mount, location: A1 of Opentrons Fixed Trash on 12
-INFO:opentrons.legacy_broker:command.PICK_UP_TIP: instrument: P20 Single-Channel GEN2 on left mount, location: B2 of Opentrons 96 Tip Rack 20 µL on 2
-INFO:opentrons.hardware_control.instruments.ot2.pipette_handler.InstrumentHandler.140112473469184:Updating tip rack diameter on pipette mount: LEFT, tip diameter: 3.27 mm
-INFO:opentrons.hardware_control.instruments.ot2.pipette_handler.InstrumentHandler.140112473469184:Updating working volume on pipette mount:LEFT, tip volume: 20 ul
-INFO:opentrons.legacy_broker:command.DROP_TIP: instrument: P20 Single-Channel GEN2 on left mount, location: A1 of Opentrons Fixed Trash on 12
-INFO:opentrons.legacy_broker:command.PICK_UP_TIP: instrument: P20 Single-Channel GEN2 on left mount, location: C2 of Opentrons 96 Tip Rack 20 µL on 2
-INFO:opentrons.hardware_control.instruments.ot2.pipette_handler.InstrumentHandler.140112473469184:Updating tip rack diameter on pipette mount: LEFT, tip diameter: 3.27 mm
-INFO:opentrons.hardware_control.instruments.ot2.pipette_handler.InstrumentHandler.140112473469184:Updating working volume on pipette mount:LEFT, tip volume: 20 ul
-INFO:opentrons.legacy_broker:command.DROP_TIP: instrument: P20 Single-Channel GEN2 on left mount, location: A1 of Opentrons Fixed Trash on 12
+INFO:opentrons.hardware_control.api.API.140347430257760:Updating instrument model cache
+INFO:opentrons.hardware_control.api.API.140347430257760:Skipping configuration on LEFT
+INFO:opentrons.hardware_control.instruments.ot2.pipette.<unknown>:loaded: p300_single_v2.1, pipette offset: (0.0, 0.0, 0.0)
+INFO:opentrons.hardware_control.api.API.140347430257760:Doing full configuration on RIGHT
+INFO:opentrons.hardware_control.api.API.140347430257760:Instruments found: {<Mount.LEFT: 1>: <Pipette: P20 Single-Channel GEN2 140347188590336>, <Mount.RIGHT: 2>: <Pipette: P300 Single-Channel GEN2 140347188585584>}
+INFO:opentrons.protocol_api.core.legacy.legacy_protocol_core:Instrument <opentrons.protocol_api.core.legacy.legacy_instrument_core.LegacyInstrumentCore object at 0x7fa52053faf0> loaded

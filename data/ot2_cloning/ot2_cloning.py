@@ -4,11 +4,9 @@ from opentrons import protocol_api
 from opentrons import simulate
 protocol = simulate.get_protocol_api("2.13")
 import pandas as pd
-import re
 import time
 import json
 import requests
-import logging
 
 metadata = {
     "protocolName": "{{PRESENT_TIME}} Cloning (PCR, Assembly, Transformation)",
@@ -20,6 +18,7 @@ metadata = {
 
 # [PARAMETERS]
 # PARAMETERS = {{EXPORT_JSON}}
+global PARAMETERS
 PARAMETERS={
   "Meta": {
     "Task": "OT-2 cloning",
@@ -189,8 +188,6 @@ PARAMETERS={
 }
 default_labware = 'biorad_96_wellplate_200ul_pcr'
 
-logging.basicConfig(filename=f"{metadata['protocolName']}.log", level=logging.INFO)
-
 # [Functions]
 def discord_message(message, user=PARAMETERS["Parameters"]["Messenger"]):
     if user == "None":
@@ -313,7 +310,6 @@ def transfer_materials(key, p20, p300, mix_last=(0,0)):
                 p20.aspirate(mix_last[1], dest.bottom())
                 p20.dispense(mix_last[1], dest.bottom(z=3))
             p20.drop_tip()
-
 
 def spotting_dispense(pipette, src, dest: list, spotting_volume=4):
     # Dispense liquid at the top of well

@@ -3,9 +3,10 @@ from streamlit import session_state as state
 import pandas as pd
 import json
 from pathlib import Path
+from datetime import datetime
 
 # def
-def main():
+def main():    
     def check_project():
         return list(Path("data/project").glob('*.json'))
 
@@ -57,7 +58,7 @@ def main():
         else:
             state[f'{key}_plate'] = plate_transformation(state_edit, 'long')
 
-    def plate_table(plate_type, use_name=True, loaded_table=False):
+    def plate_table(plate_type, use_name=True, loaded_table=False, TF=False):
         with st.expander(f"{plate_type}", expanded=True):
             st.number_input(f"Number of {plate_type} plate",
                             min_value=1, step=1, max_value=3,
@@ -77,9 +78,14 @@ def main():
                 
                 with plates[n]:
                     if use_name:
-                        st.selectbox("Name",
-                                     options=[f"{plate_type}_plate_{n+1}", "Eco Part"],
-                                     key=f"{plate_type}_plate_{n+1}_name")
+                        if not TF:
+                            st.selectbox("Name",
+                                        options=[f"{plate_type}_plate_{n+1}", "Eco Part"],
+                                        key=f"{plate_type}_plate_{n+1}_name")
+                        else:
+                            st.text_input("Name",
+                                        key=f"{plate_type}_plate_{n+1}_name",
+                                        value=f'{datetime.now().strftime("%y%m%d")}_{plate_type}_{n+1}')
                     if st.toggle("Wide form", value=False, key=f'{plate_type}_{n+1}_toggle',
                                 on_change=toggle_change,
                                 kwargs={'key':f'{plate_type}_{n+1}'}):
@@ -318,7 +324,7 @@ def main():
                 state.workflow = state.select_workflow
                 for workflow in state.workflow:
                     if workflow.split('_')[0] == 'Transformation':
-                        plate_table(workflow, use_name=True)
+                        plate_table(workflow, use_name=True, TF=True)
                     else:
                         workflow_table(workflow) # 여기서는 정상
             # Use loaded Project
@@ -380,7 +386,7 @@ def main():
                 
                 df.index.name = 'Index'
                 df = df[sorted(df.columns)]
-                state[f"{workflow}_edit_volume"] = st.data_editor(df, use_container_width=True, key=f"{workflow}_volume",
+                state[f"{workflow}_edit_volume"] = st.data_editor(df, use_container_width=False, key=f"{workflow}_volume",
                                                                   hide_index=True,
                                                                   num_rows='fixed')
             
@@ -454,7 +460,7 @@ def main():
                         else:
                             value = state[f'{workflow}_{n+1}_edit_plate'].dropna()["Value"].to_dict()
                         # workflow가 여러개가 들어가는 형태로 되었음.. data가 여러개가 들어가야 할 것 같은뎅
-                        state.export_JSON["Workflow"][f"{workflow}_{n+1}"] = {
+                        state.export_JSON["Plate"][f"{workflow}_{n+1}"] = {
                             "name": name,
                             "type": workflow.split('_')[0],
                             "data": value,
@@ -507,6 +513,8 @@ def main():
             except:
                 pass
             
+            products = [i for i in products if i != None]
+            
             for i in list(dict.fromkeys(materials)):
                 if type(i) != str:
                     continue
@@ -516,7 +524,7 @@ def main():
                     dnas.append(i)
             
             if use_tf:
-                enzymes += ["CPcell", "SOC"]
+                enzymes += ["[E]CPcell", "[E]SOC"]
             
             ## Deck position
             tf_plate = []
@@ -548,8 +556,9 @@ def main():
                 pass
             
             ## DEST에 Product 검사 
-            # Product 중복 검사
-            assert len(set(products)) == len(products), "ERROR3: Duplicated Product Exists! or Empty"
+            # Product 중복 검사            
+            if len(products) != 0:
+                assert len(set(products)) == len(products), "ERROR3: Duplicated Product Exists!"
             # DEST table에 REACTION - NAME들 있는지.
             for element in products:
                 if element == None:
