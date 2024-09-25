@@ -375,7 +375,7 @@ def run(protocol: protocol_api.ProtocolContext):
             )
 
 
-    def run_GGA(key, p20, p300, tc_mod):
+    def run_GGA(workflow_df, volume_dict):
         final_volume = sum(map(float, volume_dict.values()))
         transfer_materials(workflow_df=workflow_df, volume_dict=volume_dict, mix_last=(2, 15))
         ## Thermocycler
@@ -398,7 +398,7 @@ def run(protocol: protocol_api.ProtocolContext):
         tc_mod.set_block_temperature(12)
 
 
-    def run_Transformation(key, p20, p300, tc_mod):
+    def run_Transformation():
         flow_rate(p300, aspirate=20, dispense=20, blow_out=100)
         src = find_materials_well("[E]CPcell")
 
@@ -574,6 +574,7 @@ def run(protocol: protocol_api.ProtocolContext):
         
         # Empty workflow를 무시하고 지나갈 수 있어야 함.
         if PARAMETERS["Parameter"]["stop_reaction"]:
+            # 첫 번째 workflow 전은 stop하지 않음
             if not workflow == PARAMETERS["Meta"]["workflow"][0]:
                 protocol.pause(f"{workflow}: will be start Place down enzyme")
                 discord_message(f"{workflow}: Protocol Paused please push start button")        
@@ -595,8 +596,3 @@ def run(protocol: protocol_api.ProtocolContext):
         tc_mod.open_lid()
 
     discord_message(f"Protocol End: {time.strftime('%Y-%m-%d %H:%M:%S')}")
-
-# 240724
-# RUN PCR
-# Run GIbson
-# Run GGA (Thermocycler 수정 필요)
