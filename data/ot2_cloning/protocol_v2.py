@@ -528,8 +528,9 @@ def run(protocol: protocol_api.ProtocolContext):
                     # p20.distribute(spotting_volume, src, dest, new_tip="never", touch_tip=False)
                     p20.drop_tip()
         tc_mod.deactivate()
+    
+    #------------------------------------------------ Protocol Start
     discord_message(f"Protocol Start: {time.strftime('%Y-%m-%d %H:%M:%S')}")
-
     # Deck Setting
     ## Modules
     tc_mod = protocol.load_module(module_name="thermocyclerModuleV1")

@@ -184,8 +184,6 @@ def main():
         
         return deck_dict
 
-
-
     # Statics
     if 'project' not in state:
         state.project = check_project()
@@ -199,6 +197,9 @@ def main():
         state.export_JSON = False
     if 'make_json' not in state:
         state.make_json = False
+
+    scenarios = ['pcr-gibson-tf']
+    scenarios = ['gga-tf']
 
     workflows = ['PCR', 'Gibson', 'GGA', 'TF']
     initial_tables = {
